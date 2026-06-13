@@ -146,7 +146,7 @@ int main()
     test_zero_derivative_lab12();
     test_wrong_secant_data_lab12();
 
-    cout << "all nonlinear lab12 tests passed" << endl;
 
+    cout << "all nonlinear lab12 tests passed" << endl;
     return 0;
 }
