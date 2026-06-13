@@ -13,13 +13,9 @@ using namespace std;
 // this function comes from lab 6
 // f(x) = cos(12x + 1) / (1 + x^2)
 
-double function_lab6(double x)
-{
-    return cos(12.0 * x + 1.0) / (1.0 + x * x);
-}
+double function_lab6(double x)  {return cos(12.0 * x + 1.0) / (1.0 + x * x);}
 
 // this function calculates the integral using the left rectangle method
-
 double left_rectangle_lab6(double a, double b, int n)
 {
     if (n <= 0)
@@ -61,7 +57,6 @@ double midpoint_rectangle_lab6(double a, double b, int n)
 }
 
 // this function calculates the integral using the trapezoidal method
-
 double trapezoidal_lab6(double a, double b, int n)
 {
     if (n <= 0)
@@ -82,7 +77,6 @@ double trapezoidal_lab6(double a, double b, int n)
 }
 
 // this function calculates the integral using simpson method
-
 double simpson_lab6(double a, double b, int n)
 {
     if (n <= 0)
@@ -116,14 +110,9 @@ double simpson_lab6(double a, double b, int n)
 }
 
 // this function calculates absolute error
-
-double absolute_error_lab6(double exact_value, double approximate_value)
-{
-    return fabs(exact_value - approximate_value);
-}
+double absolute_error_lab6(double exact_value, double approximate_value){return fabs(exact_value - approximate_value);}
 
 // this function calculates experimental convergence order
-
 double convergence_order_lab6(double error_n, double error_2n)
 {
     if (error_n <= 0.0 || error_2n <= 0.0)
@@ -135,7 +124,6 @@ double convergence_order_lab6(double error_n, double error_2n)
 }
 
 // this function measures method execution time in microseconds
-
 double measure_time_lab6(double (*method)(double, double, int), double a, double b, int n, double &result)
 {
     auto start = chrono::high_resolution_clock::now();

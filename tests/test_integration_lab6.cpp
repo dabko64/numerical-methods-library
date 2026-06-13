@@ -7,7 +7,6 @@
 using namespace std;
 
 // this test checks simpson method for correct input data
-
 void test_simpson_correct_data_lab6()
 {
     double a = 0.0;
@@ -27,7 +26,6 @@ void test_simpson_correct_data_lab6()
 }
 
 // this test checks trapezoidal method for correct input data
-
 void test_trapezoidal_correct_data_lab6()
 {
     double a = 0.0;
@@ -47,7 +45,6 @@ void test_trapezoidal_correct_data_lab6()
 }
 
 // this test checks if method throws exception for wrong n value
-
 void test_wrong_n_value_lab6()
 {
     bool exception_thrown = false;
@@ -82,7 +79,6 @@ void test_absolute_error_lab6()
 }
 
 // this test checks if convergence order throws exception for wrong error value
-
 void test_convergence_order_wrong_data_lab6()
 {
     bool exception_thrown = false;
