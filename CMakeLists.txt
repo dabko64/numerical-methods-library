@@ -9,4 +9,8 @@ add_executable(mn_project main.cpp
         examples/example_integration_lab6.cpp
         include/integration_lab7.hpp
         src/integration_lab7.cpp
-        tests/test_integration_lab7.cpp)
+        tests/test_integration_lab7.cpp
+        src/integration_lab6.cpp
+        src/interpolation_lab2.cpp
+        include/interpolation_lab2.hpp
+)
