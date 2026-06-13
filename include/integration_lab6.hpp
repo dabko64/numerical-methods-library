@@ -1,0 +1,8 @@
+//
+// Created by dream on 13.06.2026.
+//
+
+#ifndef MN_PROJECT_INTEGRATION_LAB6_HPP
+#define MN_PROJECT_INTEGRATION_LAB6_HPP
+
+#endif //MN_PROJECT_INTEGRATION_LAB6_HPP
