@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// TESTY DLA FUNKCJI: interpolacja Lagrange'a
+// TEST: interpolacja Lagrange'a
 
 void test_interpolacja_proste_liczby() {
     vector<double> x = {0.0, 1.0, 2.0};
@@ -33,7 +33,7 @@ void test_interpolacja_tylko_jeden_punkt() {
     }
 }
 
-// TESTY DLA FUNKCJI: wczytajdane1
+// TEST: wczytajdane1
 
 void test_wczytywanie_zly_plik() {
     vector<double> x, y;
@@ -47,7 +47,7 @@ void test_wczytywanie_zly_plik() {
     }
 }
 
-// TESTY DLA FUNKCJI: zapiszCSV
+// TEST: zapiszCSV
 
 void test_zapis_poprawny() {
     vector<double> x = {1.0};
@@ -70,7 +70,7 @@ int main() {
     test_interpolacja_proste_liczby();
     test_interpolacja_tylko_jeden_punkt();
     test_wczytywanie_zly_plik();
-    //test_zapis_poprawny();
+    test_zapis_poprawny();
 
     cout << "--- KONIEC TESTOW ---" << endl;
     return 0;
