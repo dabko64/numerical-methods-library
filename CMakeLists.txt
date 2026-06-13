@@ -41,6 +41,10 @@ add_executable(example_integration examples/example_integration_lab6.cpp)
 target_link_libraries(example_integration numeryka_lib)
 add_executable(example_approximation_lab8
         examples/example_approximation_lab8.cpp
+        examples/example_nonlinear_lab11.cpp
+        include/nonlinear_lab11.hpp
+        src/nonlinear_lab11.cpp
+        tests/test_nonlinear_lab11.cpp
 )
 
 add_executable(example_approximation examples/example_approximation_lab8.cpp
