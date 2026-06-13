@@ -14,3 +14,12 @@ add_executable(mn_project main.cpp
         src/interpolation_lab2.cpp
         include/interpolation_lab2.hpp
 )
+        tests/test_integration_lab7.cpp
+        include/approximation_lab8.hpp
+        src/approximation_lab8.cpp
+        examples/example_approximation_lab8.cpp
+        tests/test_approximation_lab8.cpp
+        examples/example_ode_lab9.cpp
+        include/ode_lab9.hpp
+        src/ode_lab9.cpp
+        tests/test_ode_lab9.cpp)
