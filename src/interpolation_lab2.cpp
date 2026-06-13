@@ -7,11 +7,11 @@
 
 using namespace std;
 
-void run_lab2(){
+void run_example_lab2(){
     vector<double> x;
     vector<double> y;
-    string plikWejsciowy = "interpolacja_gr_1_INO.txt";
-    string plikWyjsciowy = "interpolacja_wynik.csv";
+    string plikWejsciowy = "../data/interpolacja_gr_1_INO.txt";
+    string plikWyjsciowy = "../data/interpolacja_wynik.csv";
 
     if (wczytajdane1(plikWejsciowy, x, y)) {
 
