@@ -4,4 +4,6 @@ project(mn_project)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(mn_project main.cpp
-        include/integration_lab6.hpp)
+        include/integration_lab6.hpp
+        tests/test_integration_lab6.cpp
+        examples/example_integration_lab6.cpp)
