@@ -1,6 +1,8 @@
 #include <iostream>
 #include "include/interpolation_lab2.hpp"
 #include "include/interpolation_lab3.hpp"
+#include "include/LU_lab4.hpp"
+#include "include/gauss_lab5.hpp"
 #include "include/integration_lab6.hpp"
 #include "include/integration_lab7.hpp"
 #include "include/approximation_lab8.hpp"
@@ -20,14 +22,16 @@ void print_menu()
     cout << "        numerical methods library        \n" << endl;
     cout << "1. lab 2  - numerical interpolation 1" << endl;
     cout << "2. lab 3  - numerical interpolation 2" << endl;
-    cout << "3. lab 6  - numerical integration 1" << endl;
-    cout << "4. lab 7  - numerical integration 2" << endl;
-    cout << "5. lab 8  - polynomial approximation" << endl;
-    cout << "6. lab 9  - euler method for ode" << endl;
-    cout << "7. lab 10 - ode methods comparison" << endl;
-    cout << "8. lab 11 - nonlinear equations 1" << endl;
-    cout << "9. lab 12 - nonlinear equations 2" << endl;
-    cout << "10. exit" << endl;
+    cout << "3. lab 4  - LU decomposition" << endl;
+    cout << "4. lab 5  - Gauss elimination"<< endl;
+    cout << "5. lab 6  - numerical integration 1" << endl;
+    cout << "6. lab 7  - numerical integration 2" << endl;
+    cout << "7. lab 8  - polynomial approximation" << endl;
+    cout << "8. lab 9  - euler method for ode" << endl;
+    cout << "9. lab 10 - ode methods comparison" << endl;
+    cout << "10. lab 11 - nonlinear equations 1" << endl;
+    cout << "11. lab 12 - nonlinear equations 2" << endl;
+    cout << "0. exit" << endl;
     cout << "choose option: ";
 }
 
@@ -46,32 +50,41 @@ void run_choice(int choice)
             break;
 
             case 3:
-            run_example_lab6();
+            run_example_lab4();
             break;
 
             case 4:
-            run_example_lab7();
+            run_example_lab5();
             break;
 
             case 5:
-            run_example_lab8();
+            run_example_lab6();
             break;
 
             case 6:
-            run_example_lab9();
+            run_example_lab7();
             break;
 
             case 7:
-            run_example_lab10();
+            run_example_lab8();
             break;
 
             case 8:
-            run_example_lab11();
+            run_example_lab9();
             break;
 
             case 9:
+            run_example_lab10();
+            break;
+
+            case 10:
+            run_example_lab11();
+            break;
+
+            case 11:
             run_example_lab12();
             break;
+
 
         case 0:
             cout << "end of program" << endl;
